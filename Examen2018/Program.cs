@@ -72,7 +72,7 @@ namespace Examen2018
             Drink b1 = new Drink("Schweppes", 50, 2);
             kfet.RenewDrink(b1);
             kfet.DistributorDisplay();
-            Console.WriteLine("*** Employee Elisabeth is VIP this month ***");
+            Console.WriteLine(" Employee Elisabeth is VIP this month ");
             EmployeeVip e3 = new EmployeeVip("Elisabeth", "Sales Assistant");
             e3.EmployeeDisplay();
             Console.WriteLine(e3.GetName() + " buy 8 drinks at Kfet distributor. ");
