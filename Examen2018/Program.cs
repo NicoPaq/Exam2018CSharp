@@ -30,7 +30,7 @@ namespace Examen2018
             Console.WriteLine(" Create second employee and display him");
             Employee e2 = new Employee("Harry", "Commercial");
             e2.EmployeeDisplay();
-            Console.WriteLine(e2.GetName() + " buy 8 drinks at Kfet distributor. ");
+            Console.WriteLine(e2.GetName() + "  buy 8 drinks at Kfet distributor. ");
             // Harry buy eight times same drink at Kfet Distributor.
             for (int i = 1; i < 9; i++){
                 Boolean buy = kfet.BuyDrinks(e2);
